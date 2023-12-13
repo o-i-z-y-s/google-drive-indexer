@@ -1,6 +1,6 @@
 var rows = [];
 
-function getMyFilesFromDrive() {
+function main() {
  var myFolder = DriveApp.getFoldersByName('D&D');
  var sheet = SpreadsheetApp.getActiveSheet();
  sheet.clear();
